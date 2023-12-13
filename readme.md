@@ -8,5 +8,5 @@ Place them here --> /PESrank/model/data/
 
 You will also need to define dynamodb tables and provide your AWS credentials here --> /screens/on_app_load.py
 
-You can run the code with a container from this namespace in DockerHub --> docker push dparsystem/dpar1:latest
+You can run the code with a container from this namespace in DockerHub --> docker run -dit -p 8501:8501 dparsystem/dpar1:latest
 
